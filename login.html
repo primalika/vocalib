@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - Vocational Library</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+
+    <a class="brand" href="index.html">
+      <div class="logo">VL</div>
+      <div class="brand-title">
+        <b>Vocational Library</b>
+        <small>School Library</small>
+      </div>
+    </a>
+
+    <nav class="navlinks">
+      <a href="index.html" target="_blank">Beranda</a>
+      <a href="admin.html" target="_blank">Admin</a>
+      <a href="layanan.html" target="_blank">Layanan</a>
+      <a href="koleksi.html" target="_blank">Koleksi</a>
+      <a href="about.html" target="_blank">About Us</a>
+      <a class="active" href="login.html">Login</a>
+      <a href="signup.html" target="_blank">Sign Up</a>
+    </nav>
+
+  </div>
+</header>
+
+<main class="page-main auth-wrap">
+  <section class="auth-card">
+    <h1>Login</h1>
+    <p class="lead">Masuk untuk melanjutkan ke Vocational Library</p>
+
+    <form class="form" action="index.html">
+      <div class="field">
+        <label>Email</label>
+        <input type="email" placeholder="Email" required />
+      </div>
+
+      <div class="field">
+        <label>Password</label>
+        <input type="password" placeholder="Password" required />
+      </div>
+
+      <button class="btn auth-btn" type="submit">Login</button>
+
+      <div class="small-row" style="margin-top:10px;">
+        <label class="checkbox">
+          <input type="checkbox"/>
+          <span>Remember me</span>
+        </label>
+
+        <a href="#">Lupa password?</a>
+      </div>
+
+      <div class="auth-footer-note">
+        Belum punya akun? 
+        <a href="signup.html" target="_blank" rel="noopener">
+          Daftar di sini
+        </a>
+      </div>
+    </form>
+  </section>
+</main>
+
+<footer class="footer-brown">
+  <div class="container">
+    <div class="footer-brown-grid">
+
+      <!-- Kolom 1 -->
+      <div>
+        <h3 class="fb-title">Vocational Library</h3>
+        <p class="fb-text">
+          Perpustakaan Sekolah Menengah Kejuruan untuk belajar, literasi,
+          dan mempersiapkan siswa siap dunia kerja.
+        </p>
+        <p class="fb-copy">© 2026 Vocational Library</p>
+      </div>
+
+      <!-- Kolom 2 -->
+      <div>
+        <h4 class="fb-head">Jam Operasional</h4>
+        <p class="fb-text">
+          Senin – Jumat: <b>08.00 – 16.00</b><br>
+        </p>
+      </div>
+
+      <!-- Kolom 3 -->
+      <div>
+        <h4 class="fb-head">Kontak</h4>
+
+        <div class="fb-row">
+          <span>📍</span>
+          <span>Medan, Sumatera Utara</span>
+        </div>
+
+        <div class="fb-row">
+          <span>📞</span>
+          <a href="tel:+6281365683349">081365683349</a>
+        </div>
+
+        <div class="fb-row">
+          <span>✉️</span>
+          <a href="mailto:vocationallibrary@email.com">
+            vocationallibrary@email.com
+          </a>
+        </div>
+
+        <div class="fb-social">
+          <a href="https://instagram.com/primaliika" target="_blank" rel="noopener">IG</a>
+          <a href="https://youtube.com" target="_blank" rel="noopener">YT</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener">FB</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
